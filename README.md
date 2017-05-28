@@ -1,1 +1,1 @@
-# C-
+# Collection of C++ programs
