@@ -7,7 +7,7 @@ int factorial( int nInteger);
 
 int main(){
 
-        int integer = 3;
+        int integer = 5;  // change this to any number you want the factorial of.
         int result = factorial( integer);
         cout << "factorial(" << integer << ") = " << result << " (in main())\n";
 
@@ -29,3 +29,18 @@ int factorial( int n){
 
         return product;
 }
+
+/* output  
+factorial(5)
+factorial(4)
+factorial(3)
+factorial(2)
+factorial(1)
+factorial(0)
+returning 1
+returning 1
+returning 2
+returning 6
+returning 24
+returning 120
+factorial(5) = 120 (in main())   */ 
