@@ -26,4 +26,14 @@ int main(){
         TowerOfHanoi( numRings, startingTower, endingTower, spareTower);
 
         return 0;
-}
+} 
+/* output (2 is input)
+2
+TowerOfHanoi(2, 1, 3, 2)
+TowerOfHanoi(1, 1, 2, 3)
+Move the top disk from 1 to 2
+TowerOfHanoi(1, 1, 3, 2)
+Move the top disk from 1 to 3
+TowerOfHanoi(1, 2, 3, 1)
+Move the top disk from 2 to 3
+*/ 
